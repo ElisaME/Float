@@ -1,18 +1,24 @@
-div{
+div>div{
 	width: 25%;
 	height: 100px;
+	float: left;
 }
 .cajaGrande{
 	width: 500px;
-	height: 300px;
 	border: 2px solid black;
 }
 .rojo{
-	background-color: red;
+	background-color: #FA5858;
 }
 .azul{
-	background-color: blue;
+	background-color: #5882FA;
 }
 .amarillo{
-	background-color: yellow;
+	background-color: #F4FA58;
+}
+.clearfix:before, .clearfix:after {
+	content:"";
+	display:table;
+}.clearfix:after{
+	clear:both;
 }
